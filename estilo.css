@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "pop bold";
+    src: url(font/Poppins-Bold.woff);
+}
+
+@font-face {
+    font-family: "pop thin";
+    src: url(font/Poppins-Light.woff);
+}
+
+body {
+    font-family: "pop bold";
+    font-size: 16px;
+}
+
+#conteudo {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* cabeçalho */
+
+span {
+    color: #6c63ff;
+}
+
+/*logo*/
+
+#logo {
+    font-size: 1.7em;
+    float: left;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #151515;
+    text-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+/*navegação*/
+
+
+#lista a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #151515;
+}
+
+#lista ul li a:hover{
+   border-bottom: 1px solid #6c63ff;
+
+}
+
+#lista ul {
+    float: left;
+    list-style: none;
+    padding-right: 15px;
+}
+
+#lista {
+    font-family: "pop thin";
+    float: right;
+    margin-top: 30px;
+}
+
+/*conteudo*/
+
+#principal {
+    clear: both;
+    
+}
+
+img {
+    float: left;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+h3 {
+    float: left;
+    margin-top: 300px;
+    margin-left: 150px;
+    font-size: 2.7em;
+    line-height: 50px;
+}
+
+.prin {
+    color: #6c63ff;
+    margin-left: 50px;
+}
+
+/* comentarios */
+
+#embaixo {
+    clear: both;
+    width: 900px;
+    margin: 0 auto;
+    display: block;
+}
+
+h1{
+    text-align: center;
+}
+
+#primario {
+    float: left;
+    width: 420px;
+    text-indent: 25px;
+    font-size: 1.3em;
+}
+
+#secundario {
+    border: 2px solid #151515;
+    background-color: #fff;
+    float: right;
+    width: 420px;
+    height: 235px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+#secundario p {
+    margin: 0;
+    padding: 20px;
+    font-size: 1.4em;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+.caixa h4 {
+    border: 3px solid #6c63ff;
+    background-color: #fff;
+    padding: 15px 0px 15px 0px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+/* botao */
+
+#botao {
+    clear: both;
+}
+
+.caixa-bot {
+   padding-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.caixa-bot a{
+    background-color: #151515;
+    padding: 10px 90px;
+    font-size: 1.7em;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #6c63ff;
+}
+
+.caixa-bot a:hover{
+    text-decoration: underline;
+    box-shadow: 1px 1px rgb(26, 26, 26);
+}
+
+/* rodape */
+
+footer {
+    width: 100%;
+    background-color: #6c63ff;
+    float: left;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: block;
+}
+
+footer ul{
+    float: left;
+    margin-top: 30px;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 10px;
+    
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #151515;
+    margin-left: 170px;
+    font-size: 1.3em;
+}
+
+#texto-rodape {
+    float: right;
+    margin-right: 200px;
+    font-size: 3em;
+    display: block;
+}
+
+
+
+
